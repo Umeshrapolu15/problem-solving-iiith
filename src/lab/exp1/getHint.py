@@ -16,7 +16,7 @@ def index(req,qNo,hintNo,sid):
                 F = open(dir+"Hint_"+hintNo+".html","r");
 
                 s =  F.read()
-                
+                //hear whitespaces are peresnt  instead of courly braces in phyton//  
                 F.close()
         except:
                 s = 'Failed to load' ;
